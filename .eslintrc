@@ -1,0 +1,15 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended"], // 使用eslint推荐的规则作为基础配置，可以在rules中覆盖
+
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "quotes": [
+            2,
+            "single"
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
+"\n        /**\n         * @Author:\"gaojian\"\n         * @Email:\"123@a.com\"\n         * */\n        \"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=void 0;var _require=require(\"loader-utils\"),urlToRequest=_require.urlToRequest,_require2=require(\"schema-utils\"),validate=_require2.validate,schema={type:\"object\",properties:{test:{type:\"string\"}}},_default=(module.exports=function(e){var t=this.getOptions();return validate(schema,t,{name:\"Example Loader\",baseDataPath:\"options\"}),console.log(\"The request path\",urlToRequest(this.resourcePath)),\"export default \".concat(JSON.stringify(e))},\"console.log(' start ');\\nconst varname = 'abc';\\nconsole.log('varname : ', varname);\\nasync function A() {\\n  try {\\n    const res = await 1;\\n    return res;\\n  } catch (e) {\\n    console.error(e);\\n  }\\n}\");exports.default=_default;\n    "
+/******/ })()
+;
